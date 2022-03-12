@@ -76,7 +76,7 @@ img {
  .footer-widget p a,
  .footer-widget ul li::before,
  .footer-widget ul li a:hover {
-     color: #E40000 !important;
+     color: orange !important;
  }
 .footer-widget ul li{
 	background: url(https://addtowatchlist.com/377/images/icon/red-arrow.png) no-repeat left 4px !important;
@@ -102,7 +102,7 @@ img {
  }
 
  .featured-hover {
-     background-color: rgba(230, 0, 0, 0.9);
+     background-color: #ff6a35;
 
  }
  /*  ================================
@@ -1549,4 +1549,5 @@ float:none;
 }
 .product-block ul li{
 	width:100%!important;
+}
 }
