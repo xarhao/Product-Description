@@ -1552,3 +1552,158 @@ float:none;
 }
 }
 .thumb{width:88px;height:74px}
+
+img{
+	max-width:100%
+	}
+
+.container{
+	width:1170px;
+	margin:0 auto;
+	padding:0 15px
+	}
+
+.text-center{
+	text-align:center
+	}
+
+.float-left{
+	float:left
+	}
+
+.full-width{
+	width:100%
+	}
+
+.section-title{
+	position:relative;
+	}
+
+.section-title h2{
+	font-size:30px;
+	text-transform:capitalize;
+	padding:10px 20px;
+	font-weight:400;
+	display:inline-block;
+	border:2px solid;
+	color:orange;
+	position:relative;
+	font-family:'Prata',serif
+	}
+
+.section-title::before{
+	position:absolute;
+	top:50%;
+	left:0;
+	content:"";
+	width:100%;
+	height:2px;
+	background:url(images/before.png);
+	background-size:contain
+	}
+
+.featured-proudcts-area{
+	padding:50px 0 150px;
+	background-color:#242424;
+	border-top:1px solid #2d2d2d
+	}
+
+.single-product{
+	width:23%;
+	position:relative;
+	margin-right:30px
+	}
+
+.single-product:hover{
+	box-shadow:0 0 15px rgba(0,0,0,.3)
+	}
+
+.single-product:last-child{
+	margin-right:0
+	}
+
+.product-price{
+	padding-top:10px
+	}
+
+
+.sales-price{
+	margin:0 2px;
+	font-size:20px;
+	font-weight:500;
+	color:#fff
+	}
+
+	.product-img{
+		overflow:hidden;
+		margin-left: 5px;
+		}
+	.product-img img{
+		width:100%;
+		float:left;
+		height:auto;
+		-webkit-transition:all 0.5s ease-in-out;
+		-ms-transition:all 0.5s ease-in-out;
+		-moz-transition:all 0.5s ease-in-out;
+		transition:all 0.5s ease-in-out;
+
+		}
+
+.single-product:hover img{
+	-webkit-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	transform:scale(1.2);
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px){
+.container{
+	width:750px
+	}
+.single-product{
+	width:47%;
+	margin-bottom:30px
+}
+}
+
+@media only screen and (max-width:767px){
+.container{
+	width:100%
+	}
+p{
+	font-size:13px
+	}
+.section-title h2{
+	font-size:16px
+	}
+.featured-proudcts-area{
+	padding:50px 0
+	}
+.single-product{
+	width:50%;
+	margin-right:0;
+	margin-bottom:30px
+	}
+.sales-price{
+	font-size:16px
+	}
+}
+
+@media only screen and (max-width:479px){
+	.single-product{width:100%!important
+		}
+	}
+
+
+
+@media (min-width:992px) and (max-width:1199px){
+.container{
+		width:970px
+		}
+.section-title::before{
+		left:-43px}
+.single-product{
+	margin-right:25px
+	}
