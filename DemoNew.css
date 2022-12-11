@@ -1,0 +1,488 @@
+body {
+    color: #555555;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h4 {
+    color: #222222;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #87b106;
+}
+
+::selection {
+    color: #fff;
+    background: #87b106;
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+    font-size: 13px;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color: #999;
+    font-size: 13px;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #999;
+    font-size: 13px;
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    color: #999;
+    font-size: 13px;
+    opacity: 1;
+}
+
+.row-10 {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.row-10 > [class*="col"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.mtn-100 {
+  /*margin-top: -100px;*/
+  margin-bottom: 10PX;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .service-policy {
+        margin-top: 0;
+    /*padding-top: 53px;*/
+    }
+}
+
+.policy-block {
+    padding: 75px 15px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px), only screen and (max-width: 767.98px) {
+    .policy-block {
+        padding: 40px 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px), only screen and (max-width: 767.98px) {
+    .policy-block {
+        margin-top: 10px;
+    }
+}
+
+.policy-block{
+    -webkit-box-shadow: 0 5px 14px 0 rgba(195, 195, 195, 0.6);
+    box-shadow: 0 5px 14px 0 rgba(195, 195, 195, 0.6);
+}
+
+.policy-block:hover .policy-icon:after {
+    opacity: 1;
+    visibility: visible;
+    -webkit-animation: spin 10s infinite linear;
+    animation: spin 10s infinite linear;
+}
+
+.policy-icon {
+    color: #fff;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    line-height: 80px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    background-color: #87b106;
+    position: relative;
+}
+
+.policy-icon:after {
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    content: '';
+    position: absolute;
+    border: 2px dashed #87b106;
+    top: -5px;
+    left: -5px;
+    border-radius: 50%;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.policy-icon i{
+    color: #fff;
+    border: 1px solid #87b106;
+}
+.policy-text {
+    margin-top: 42px;
+    text-align: center;
+}
+
+.policy-text .policy-title {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.policy-text .policy-desc {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #777777;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/*.bg-gray {
+    background-color: #f8f8f8;
+}*/
+
+#wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.lg-round {
+    border-radius: 45px;
+}
+
+#main {
+    overflow: hidden;
+}
+
+.btn-primary {
+    font: 700 13px/24px 'Nunito', sans-serif;
+    padding: 12px 35px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #b0c83e;
+    background: #b0c83e;
+    -webkit-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+.btn-primary:hover {
+    color: #b0c83e;
+    border-color: #b0c83e;
+    background: none;
+}
+
+.heading2 {
+    font: bold 14px/16px 'Nunito', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+.shop-sec {
+    overflow: hidden;
+    /*padding-top: 137px;
+    padding-bottom: 149px;*/
+}
+
+.shop-sec .btn-primary {
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    color: #b0c83e;
+    border: 2px solid #b0c83e;
+    background: none;
+}
+
+.shop-sec .btn-primary:hover {
+    background: #b0c83e;
+    color: #fff;
+}
+
+.product-col {
+    position: relative;
+    /*margin: 0 25px 48px 0;*/
+    margin: 10px 10px 30px 10px;
+    width: 22.8%;
+    float: left;
+}
+
+.product-col:hover .descrip {
+    display: none;
+}
+
+.product-col:hover .img-holder {
+    margin: 0 0 21px;
+}
+
+.product-col:hover .btn-primary {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 11px;
+}
+
+.product-col .img-holder {
+    border: 1px solid #e0e0e0;
+    margin: 0 0 17px;
+    padding: 67px 20px 60px 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-col .img-holder:hover .over-holder {
+    bottom: -3px;
+}
+
+.product-col .img-holder .over-holder {
+    position: absolute;
+    left: 0;
+    bottom: -70px;
+    right: 0;
+    -webkit-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+.product-col .sale-item {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 11px;
+    background: #00b7ff;
+    border-radius: 10px;
+}
+
+.product-col .share-list {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-col .share-list li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product-col .share-list a {
+    width: 36px;
+    height: 36px;
+    color: #3a3a3a;
+    display: block;
+    padding: 7px 0;
+    background: #e0e0e0;
+    border-radius: 100%;
+    -webkit-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+.product-col .share-list a:hover {
+    color: #fff;
+    background-color: #b0c83e;
+}
+
+.product-col .descrip {
+    overflow: hidden;
+}
+
+.product-col .descrip .heading2 {
+    margin: 0 0 5px;
+}
+
+.product-col .descrip .price {
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #b0c83e;
+    display: block;
+}
+
+.product-col .btn-primary {
+    padding: 6px 52px;
+    border: 2px solid #b0c83e;
+    display: none;
+}
+
+.product-col .btn-primary:hover {
+    color: #fff;
+    background: #b0c83e;
+}
+
+.product-col .btn-primary .icon-cart {
+    font: 600 12px/19px 'Nunito', sans-serif;
+    padding: 0 10px 0 0;
+}
+
+@media (max-width: 1199px) {
+    .shop-sec {
+        /*padding-top: 100px;
+        padding-bottom: 100px;*/
+    }
+
+    .product-col {
+        /*width: 22.3%;
+*/     width: 22.8%;
+    }
+
+    .product-col .btn-primary {
+        padding: 6px 42px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .shop-sec {
+        /*padding-top: 80px;
+        padding-bottom: 80px;*/
+    }
+
+    .product-col {
+        width: 30.2%;
+    }
+}
+
+@media (max-width: 767px) {
+    .shop-sec {
+        /*padding-top: 50px;
+        padding-bottom: 50px;*/
+    }
+
+    .product-col {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+
+    .product-col:hover .btn-primary {
+        margin: 0 0 12px;
+    }
+}
+.bi-record2{
+    color: #87b106;
+}
+.list-head{
+    padding: 0px;
+}
+.list-head li{
+    list-style: none;
+}
+
+.mysection-title.with-border {
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 30px;
+}
+.mysection-title.left-aligned {
+    text-align: left;
+}
+.mysection-title {
+    text-align: center;
+    margin: 20px 0 30px;
+}
+.mysection-title h2 {
+    font-size: 18px;
+    color: #333333;
+    margin: 0;
+    padding: 0 0 20px;
+    display: inline-block;
+    position: relative;
+}
+.mysection-title.left-aligned h2::before {
+    margin: 0;
+    right: initial;
+}
+.mysection-title h2::before{
+    background: #ec610a;
+}
+.mysection-title h2::before {
+    width: 70px;
+    z-index: 1;
+}
+.mysection-title h2::before, .mysection-title h2::after {
+    content: '';
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -1px;
+}
+.col-xs-12{
+    padding: 0px;
+}
